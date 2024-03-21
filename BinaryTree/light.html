@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 100vh;
+
+            width: 100vw;
+            background: grey;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+
+        }
+        .text p{
+            font-size: 100px;
+
+  
+
+          color: transparent;
+          font-weight: bold;
+          display: inline-block;
+          text-transform: uppercase;
+        }
+        .text{
+            
+            /* height: 50%;
+            width: 50%; */
+            background-image: linear-gradient(to right,red ,green ,blue,yellow,pink);
+          
+          -webkit-background-clip: text;
+          animation:animate ease-in-out .8s infinite;
+        }
+        @keyframes animate {
+            0%{
+                background-image: linear-gradient(to right,red ,green ,blue,yellow,pink);
+            }
+            50%{
+                background-image: linear-gradient(to right,rgb(179, 0, 255),rgb(205, 239, 11),orange);
+            }
+            100%{
+                background-image: linear-gradient(to right,pink ,yellow ,blue,green,red);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="contatiner">
+        <div class="text">
+            <p>Praveen kumar G</p>
+        </div>
+    </div>
+</body>
+</html>
